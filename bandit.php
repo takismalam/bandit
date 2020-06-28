@@ -3,16 +3,16 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
 echo color("blue","  [♥]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
-echo color("red","   [♡] TOLONG DIBACA DULU SEBELUM MENGGUNAKAN SC \n");
+echo color("red","   [♡] TOLONG COLI DULU SEBELUM MENGGUNAKAN SC \n");
 echo color("purple","[♥] NGETIK NOMORNYA BEGINI YA 62xxxxxxxxxx \n");
-echo color("nevy","  [♡] JANGAN LUPA FOLLOW IG GUE YA : @Bananacreamy \n");
+echo color("nevy","  [♡] JANGAN LUPA FOLLOW IG GUE YA : @BanditTheMovie \n");
 echo color("yellow","[♥] KALO GA NGAMBIL OTOMATIS GAGAL BERARTI \n");
 echo color("blue"," [♡] MAKLUM LAH NAMANYA JUGA SC GRATISAN \n");
-echo color("purple"," [♥] SCRIPT INI GRATIS, BILA ADA YG JUAL CHAT TELEGRAM \n");
+echo color("purple"," [♥] SCRIPT INI GRATIS, BILA ADA YG JUAL CALL ME \n");
 echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
 	echo "\n";
 echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[93mLO PUNYA AKUN BUAT LOGIN ?: ";	
+echo "\e[93mKOEN DUWE NOMER GAE LOGIN aa ?: ";	
        $pilihy = trim(fgets(STDIN));
 if($pilihy == "y" || $pilihy == "punya")
 echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
@@ -23,11 +23,11 @@ $pass =  ( '║ User Login : ' );
 echo "\033[30;40m";
 $user = trim(fgets(STDIN));
 echo "\033[0m";
-if($user == "")
+if($user == "bandit")
 {
 	echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 	echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-	echo "\e[93mNAMA LO SIAPA CUK ?: ";
+	echo "\e[93mJENENGMU SOPO LEK ?: ";
 	$input = trim(fgets(STDIN));
 	echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 		goto ulang;
@@ -36,22 +36,22 @@ else
 {
 		echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";	
 		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-		echo "\e[92m[🚫]        \e[91mMAMPOS GA PUNYA AKUNNYA 😆    \e[92m [🚫]\n";
-	        echo "\e[92m[🚫]              \e[91m⚠️ WARNING ⚠️            \e[92m [🚫]\n";
-		echo "\e[92m[🚫]           \e[91mSEGERA MINTA IZIN          \e[92m [🚫]\n";
-	        echo "\e[92m[🚫]          \e[91mTELEGRAM :@BANANACREAMY     \e[92m [🚫]\n";
+		echo "\e[92m[🚫]        \e[91mMODYAR NYOLONG SCRIPT 😆    \e[92m [🚫]\n";
+	        echo "\e[92m[🚫]              \e[91m⚠️ TIATI ⚠️            \e[92m [🚫]\n";
+		echo "\e[92m[🚫]           \e[91mNDANG JALUK SEPURO          \e[92m [🚫]\n";
+	        echo "\e[92m[🚫]          \e[91mTELEGRAM :@BANDITTHEMOVIE     \e[92m [🚫]\n";
 		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 goto login;
 }
 	return rtrim( $input, "\n" );
 ulang:
 echo "\n";
-echo "\e[92m             (HALLO MAS $input A.K.A NAK HARAM)               \n";
+echo "\e[92m             (HALLO LEK $input BANDIT THE MOVIE)               \n";
 echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 // function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
-        echo color("yellow","📲▶️ NOMOR LO CUK : ");
+        echo color("yellow","📲▶️ NOMER MU LEK : ");
         // $no = trim(fgets(STDIN));
         $nohp = trim(fgets(STDIN));
         $nohp = str_replace("62","62",$nohp);
@@ -78,7 +78,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $register = request("/v5/customers", null, $data);
         if(strpos($register, '"otp_token"')){
         $otptoken = getStr('"otp_token":"','"',$register);
-        echo color("yellow","📶▶️ KODE OTP UDAH GUA KIRIM CUK")."\n";
+        echo color("yellow","📶▶️ KODE OTP WES TAK KIRIM CUK")."\n";
         otp:
         echo color("red","💬▶️ Otp : ");
         $otp = trim(fgets(STDIN));
@@ -189,13 +189,13 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
          }
          }
          }else{
-         echo color("red","-] KODE OTP LO SALAH");
+         echo color("red","-] KODE OTP MU SALAH");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
-         echo color("yellow","!] INPUT ULANG NO LO..\n");
+         echo color("yellow","!] INPUT ULANG NO MU..\n");
          goto otp;
          }
          }else{
-         echo color("red","-] NOMOR LO SALAH");
+         echo color("red","-] NOMOR MU SALAH");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
          echo color("green","!] MASUKAN LAGI\n");
          goto ulang;
